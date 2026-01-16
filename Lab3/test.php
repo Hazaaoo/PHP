@@ -15,10 +15,7 @@
 
 <?php
 if (isset($_GET['baran'])){
-    // var_dump($_GET['baran']);
-    $zagon = explode(' ', $_GET['baran']);
-    upFunc($zagon);
-    echo implode(' ', $zagon);
+echo 
 }
 function upFunc(&$zagon){
 for($i = 0; $i < count($zagon); $i++){
